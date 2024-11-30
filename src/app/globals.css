@@ -61,3 +61,13 @@
   position: absolute !important;
   top: -10 !important;
 }
+
+.dark{
+  background-color: black;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}

@@ -37,7 +37,7 @@ const HomeSectionOne = () => {
 
   return (
     <div className="pt-[5.1rem] relative">
-        <div>
+        <div className="dark:text-black">
             <p onClick={handleSecOne} className="left-10 top-[50vh] text-4xl bg-white rounded-full cursor-pointer absolute"><FaChevronLeft /></p>
             {secThree === true && 
             <p onClick={handleSecTwo} className="left-10 top-[50vh] text-4xl bg-white rounded-full cursor-pointer absolute"><FaChevronLeft /></p>
@@ -58,7 +58,7 @@ const HomeSectionOne = () => {
       {secOne === true &&
       <section className="px-[7rem] py-20 flex items-center h-[80vh] bg-green-100">
         <div data-aos="fade-right"
-      data-aos-duration="2000" className="w-[100%]">
+      data-aos-duration="2000" className="w-[100%] dark:text-black">
           <p className="pb-7 text-xl font-semibold">In this season, find the best 🔥</p>
           <h2 className="text-6xl font-bold leading-[60px] pb-7">
              Exclusive collection <br /> for everyone   
@@ -77,7 +77,7 @@ const HomeSectionOne = () => {
       {secTwo === true && 
       <section className="px-[7rem] py-20 flex items-center h-[80vh] bg-green-100">
         <div data-aos="fade-right"
-      data-aos-duration="2000" className="w-[100%]">
+      data-aos-duration="2000" className="w-[100%] dark:text-black">
           <p className="pb-7 text-xl font-semibold">In this season, find the best 🔥</p>
           <h2 className="text-6xl font-bold leading-[60px] pb-7">
              Exclusive collection <br /> for everyone   
@@ -97,7 +97,7 @@ const HomeSectionOne = () => {
       {secThree === true &&
       <section className="px-[7rem] py-20 flex items-center h-[80vh] bg-green-100">
         <div data-aos="fade-right"
-      data-aos-duration="2000" className="w-[100%]">
+      data-aos-duration="2000" className="w-[100%] dark:text-black">
           <p className="pb-7 text-xl font-semibold">In this season, find the best 🔥</p>
           <h2 className="text-6xl font-bold leading-[60px] pb-7">
              Exclusive collection <br /> for everyone   
